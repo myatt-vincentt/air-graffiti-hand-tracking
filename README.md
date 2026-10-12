@@ -1,3 +1,18 @@
+# Air Graffiti
+
+Paint glowing neon strokes in the air with your index finger, over a dimmed camera. ☝️ Point to
+draw (slow strokes are thick, fast ones thin; sparks fly from the tip), 🤏 pinch to lift the pen,
+✌️ peace sign for a new colour, ✋ open palm to wipe. Reach toward the camera to paint in front of
+you; at your usual distance strokes go behind you.
+
+- Dev preview without a camera: the media switcher (☰) starts on the hand clip in `dev-media/` if
+  present (git-ignored, never shipped; see `dev-media/README.md`), otherwise on the SDK's
+  "Person ThumbUp" video. The clip is an open palm, so it demos the wipe; to draw in the built-in
+  preview use the dev mouse pen: drag to draw, shift-drag to draw in front, C for colour, W to wipe.
+- Tuning: `src/graffiti/config.ts`. How it works: `PLAN.md`.
+
+---
+
 # v2-template
 
 The Vincentt starter app: a real React + R3F + Vincentt XR SDK (`@vincentt-xr/sdk`)

@@ -33,6 +33,18 @@
     "src/Scene.tsx",
     "src/FaceBoundingBox.tsx",
     "src/FooterHud.tsx",
-    "src/HandBoundingBox.tsx"
+    "src/HandBoundingBox.tsx",
+    "src/DevMediaSwitcher.tsx",
+    "src/DevPen.tsx",
+    "src/graffiti/Graffiti.tsx",
+    "src/graffiti/ExperienceStatus.tsx",
+    "src/graffiti/Gestures.tsx",
+    "src/graffiti/Prompt.tsx",
+    "src/graffiti/config.ts",
+    "src/graffiti/depth.ts",
+    "src/graffiti/depth.test.ts",
+    "src/graffiti/pen.ts",
+    "src/graffiti/pen.test.ts",
+    "src/graffiti/state.ts"
   ]
 }
